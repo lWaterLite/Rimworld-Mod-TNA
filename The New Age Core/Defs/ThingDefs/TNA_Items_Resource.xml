@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--水晶-->>
+	<ThingDef ParentName="ResourceBase">
+    	<defName>TNA_crystal</defName>
+    	<label>crystal</label>
+    	<description>This is perhaps the most mysterious and powerful substance in the world.Although its elemental composition has been resolved, it is unclear how it interacts with the EVE particle.</description>
+    	<graphicData>
+     		<texPath>Things/Resources/TNA_crystal</texPath>
+     		<graphicClass>Graphic_StackCount</graphicClass>
+    	</graphicData>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<useHitPoints>false</useHitPoints>
+    	<healthAffectsPrice>false</healthAffectsPrice>
+    	<statBases>
+      		<MarketValue>30</MarketValue>
+      		<Mass>0.05</Mass>
+      		<StuffPower_Armor_Sharp>2.00</StuffPower_Armor_Sharp>
+      		<StuffPower_Armor_Blunt>2.00</StuffPower_Armor_Blunt>
+      		<StuffPower_Armor_Heat>2.00</StuffPower_Armor_Heat>
+      		<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      		<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+      		<SharpDamageMultiplier>5</SharpDamageMultiplier>
+      		<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+        	<Beauty>4</Beauty>
+    	</statBases>
+    	<thingCategories>
+      		<li>ResourcesRaw</li>
+    	</thingCategories>
+    	<burnableByRecipe>false</burnableByRecipe>
+    	<smeltable>true</smeltable>
+ 	   	<stuffProps>
+ 	    	<categories>
+    	   		<li>Metallic</li>
+    	  	</categories>
+      	<commonality>0.01</commonality>
+      	<constructEffect>ConstructMetal</constructEffect>
+      	<color>(76,222,255)</color>
+      	<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      	<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      	<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      	<statFactors>
+        	<MaxHitPoints>5</MaxHitPoints>
+        	<Beauty>5</Beauty>
+        	<Flammability>0</Flammability>
+        	<WorkToMake>10</WorkToMake>
+        	<WorkToBuild>10</WorkToBuild>
+        	<MeleeWeapon_CooldownMultiplier>0.2</MeleeWeapon_CooldownMultiplier>
+      	</statFactors>
+    	</stuffProps>
+    	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<tradeTags>
+      		<li>ExoticMisc</li>
+    	</tradeTags>
+    </ThingDef>
+
+	<!--水晶纤维-->
+	<ThingDef ParentName="ResourceBase">
+    <defName>TNA_crystalfiber</defName>
+    <label>crystalfiber</label>
+    <description>Fiber made from crystal through special process, with a powerful physical mechanism</description>
+    <graphicData>
+      <texPath>Things/Resources/TNA_Cfiber</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+	<statBases>
+      <StuffPower_Armor_Sharp>7</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>7</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>7</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>70</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>70</StuffPower_Insulation_Heat>
+      <MarketValue>70</MarketValue>
+      <Mass>0.001</Mass>
+      <Flammability>0</Flammability>
+	  <Beauty>4</Beauty>
+    </statBases>
+    <burnableByRecipe>false</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <stuffProps>
+      <statFactors>
+        <Flammability>0</Flammability>
+        <Beauty>7</Beauty>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <color>(50,177,108)</color>
+      <commonality>0.01</commonality>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+	<tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

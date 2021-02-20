@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--黑型-->
+    <TraitDef>
+      <defName>TNA_thaumaturgist_typeblack</defName>
+      <commonality>0.01</commonality>
+      <degreeDatas>
+        <li>
+          <label>Type-Black</label>
+          <description>NAME is a living god of the world.</description>
+          <statOffsets>
+            <MeleeDodgeChance>10</MeleeDodgeChance>
+            <MeleeHitChance>10</MeleeHitChance>
+            <AimingDelayFactor>-1.0</AimingDelayFactor>
+            <ShootingAccuracyPawn>20</ShootingAccuracyPawn>
+            <ImmunityGainSpeed>0.30</ImmunityGainSpeed>
+            <MentalBreakThreshold>-0.50</MentalBreakThreshold>
+            <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+            <PawnBeauty>2</PawnBeauty>
+            <PsychicSensitivity>0.4</PsychicSensitivity>
+            <GlobalLearningFactor>0.75</GlobalLearningFactor>
+            <PainShockThreshold>0.5</PainShockThreshold>
+            <SocialImpact>1.0</SocialImpact>
+            <TradePriceImprovement>0.5</TradePriceImprovement>
+          </statOffsets>
+        </li>
+      </degreeDatas>
+      <conflictingTraits>
+        <li>TNA_crystalsynergy</li>
+        <li>TNA_rapidmetabolism</li>
+      </conflictingTraits>
+    </TraitDef>
+
+    <!--水晶共鸣-->>
+    <TraitDef>
+      <defName>TNA_crystalsynergy</defName>
+      <commonality>0.01</commonality>
+      <degreeDatas>
+        <li>
+          <label>crystal-synergy</label>
+          <description>Due to the unique blood, {PAWN_nameDef} can do a synergy to the crystal, enpowering the strenghth.</description>
+          <statOffsets>
+            <ImmunityGainSpeed>0.50</ImmunityGainSpeed>
+            <MeleeDodgeChance>15</MeleeDodgeChance>
+            <MeleeHitChance>15</MeleeHitChance>
+            <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
+            <WorkSpeedGlobal>0.8</WorkSpeedGlobal>
+            <PawnBeauty>2</PawnBeauty>
+            <PsychicSensitivity>1.5</PsychicSensitivity>
+            <GlobalLearningFactor>1.50</GlobalLearningFactor>
+            <PainShockThreshold>0.5</PainShockThreshold>
+            <ResearchSpeed>1.0</ResearchSpeed>
+            <MentalBreakThreshold>0.5</MentalBreakThreshold>
+            <SocialImpact>0.2</SocialImpact>
+          </statOffsets>
+        </li>
+      </degreeDatas>
+      <conflictingTraits>
+        <li>TNA_thaumaturgist_typeblack</li>
+        <li>TNA_rapidmetabolism</li>
+      </conflictingTraits>
+    </TraitDef>
+
+    <!--极速代谢-->
+    <TraitDef>
+      <defName>TNA_rapidmetabolism</defName>
+      <commonality>0.01</commonality>
+      <degreeDatas>
+        <li>
+          <label>rapid-metabolism</label>
+          <description>Due to the unique blood, {PAWN_nameDef} have far more than ordinary people's metabolic speed and learning ability.</description>
+          <statOffsets>
+            <ImmunityGainSpeed>0.80</ImmunityGainSpeed>
+            <ShootingAccuracyPawn>50</ShootingAccuracyPawn>
+            <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+            <PawnBeauty>1</PawnBeauty>
+            <GlobalLearningFactor>3.00</GlobalLearningFactor>
+            <ResearchSpeed>1.5</ResearchSpeed>
+            <AimingDelayFactor>-0.5</AimingDelayFactor>
+            <EatingSpeed>1.0</EatingSpeed>
+            <ToxicSensitivity>-1.0</ToxicSensitivity>
+          </statOffsets>
+        </li>
+      </degreeDatas>
+      <conflictingTraits>
+        <li>TNA_thaumaturgist_typeblack</li>
+        <li>TNA_crystalsynergy</li>
+      </conflictingTraits>
+    </TraitDef>
+
+</Defs>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--享受安布罗斯豪华大餐-->
+    <ThoughtDef>
+        <defName>TNA_AteALM</defName>
+        <durationDays>1</durationDays>
+        <stages>
+          <li>
+            <label>ate Ambrose lavish meal</label>
+            <description>My favourate!</description>
+            <baseMoodEffect>12</baseMoodEffect>
+          </li>
+        </stages>
+  </ThoughtDef>
+
+</Defs>

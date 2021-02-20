@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!--自适应装甲系统(AAS)-->
+    <TNA_adaptiveASCoat.label>自适应装甲系统(外套)</TNA_adaptiveASCoat.label>
+    <TNA_adaptiveASCoat.description>由夏竹雨研发的自适应装甲系统，可以根据不同场合和用户需求进行变换，加之“秋分”在其中的应用，使得整个系统达到最大的智能化。\n虽然被称为“装甲系统”，但是绝大多数时间都以较为合身的常服形式存在。</TNA_adaptiveASCoat.description>
+
+    <!--自适应装甲系统(内衬)-->
+    <TNA_adaptiveASLining.label>自适应装甲系统(内衬)</TNA_adaptiveASLining.label>
+    <TNA_adaptiveASLining.description>由夏竹雨研发的自适应装甲系统，可以根据不同场合和用户需求进行变换，加之“秋分”在其中的应用，使得整个系统达到最大的智能化。\n虽然被称为“装甲系统”，但是绝大多数时间都以较为合身的常服形式存在。</TNA_adaptiveASLining.description>
+    
+    <!--自适应装甲系统(裤子)-->
+    <TNA_adaptiveASPants.label>自适应装甲系统(裤子)</TNA_adaptiveASPants.label>
+    <TNA_adaptiveASPants.description>由夏竹雨研发的自适应装甲系统，可以根据不同场合和用户需求进行变换，加之“秋分”在其中的应用，使得整个系统达到最大的智能化。\n虽然被称为“装甲系统”，但是绝大多数时间都以较为合身的常服形式存在。</TNA_adaptiveASPants.description>
+
+</LanguageData>

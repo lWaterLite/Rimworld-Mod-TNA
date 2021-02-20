@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--培养水晶-->
+    <RecipeDef>
+      <defName>TNA_CultivateCrystal</defName>
+	    <label>cultivate crystal</label>
+      <description>Cultivate crystal.</description>
+      <jobString>Cultivating crystal.</jobString>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workAmount>30000</workAmount>
+      <workSkill>Crafting</workSkill>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <effectWorking>Smith</effectWorking>
+      <researchPrerequisite>TNA_Crystalology</researchPrerequisite>
+      <skillRequirements>
+       <Crafting>15</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+		   <li>TNA_crafttable</li>
+	    </recipeUsers>
+      <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredients>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Gold</li>
+            </thingDefs>
+          </filter>
+          <count>0.5</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Uranium</li>
+            </thingDefs>
+          </filter>
+          <count>5</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>TNA_crystal</li>
+            </thingDefs>
+          </filter>
+          <count>20</count>
+        </li>
+      </ingredients>
+      <products>
+        <TNA_crystal>40</TNA_crystal>
+      </products>
+    </RecipeDef>
+
+    <!--培养水晶 x5-->
+    <RecipeDef>
+        <defName>TNA_CultivateCrystalBulk</defName>
+	    <label>cultivate crystal x5</label>
+        <description>Cultivate crystal x5.</description>
+        <jobString>Cultivating crystal.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workAmount>120000</workAmount>
+        <workSkill>Crafting</workSkill>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <effectWorking>Smith</effectWorking>
+        <researchPrerequisite>TNA_Crystalology</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>15</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+		   <li>TNA_crafttable</li>
+	    </recipeUsers>
+        <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Gold</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>TNA_crystal</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <products>
+            <TNA_crystal>200</TNA_crystal>
+        </products>
+    </RecipeDef>
+
+    <!--制作水晶纤维-->
+    <RecipeDef>
+      <defName>TNA_craftcrystalfiber</defName>
+	    <label>craft crystalfiber</label>
+      <description>craft crystalfiber.</description>
+      <jobString>crafting crystalfiber.</jobString>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workAmount>60000</workAmount>
+      <workSkill>Crafting</workSkill>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <effectWorking>Tailor</effectWorking>
+      <researchPrerequisite>TNA_Cfiber_Res</researchPrerequisite>
+      <skillRequirements>
+       <Crafting>15</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+		   <li>TNA_crafttable</li>
+	    </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredients>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>TNA_crystal</li>
+            </thingDefs>
+          </filter>
+          <count>20</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>DevilstrandCloth</li>
+            </thingDefs>
+          </filter>
+          <count>20</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Plasteel</li>
+            </thingDefs>
+          </filter>
+          <count>20</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Hyperweave</li>
+            </thingDefs>
+          </filter>
+          <count>20</count>
+        </li>
+      </ingredients>
+      <products>
+        <TNA_crystalfiber>20</TNA_crystalfiber>
+      </products>
+    </RecipeDef>
+
+    <!--制作水晶纤维 x5-->
+    <RecipeDef>
+        <defName>TNA_craftcrystalfiberBulk</defName>
+	    <label>craft crystalfiber x5</label>
+        <description>craft crystalfiber x5.</description>
+        <jobString>crafting crystalfiber.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workAmount>240000</workAmount>
+        <workSkill>Crafting</workSkill>
+        <soundWorking>Recipe_Tailor</soundWorking>
+        <effectWorking>Tailor</effectWorking>
+        <researchPrerequisite>TNA_Cfiber_Res</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>15</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+		   <li>TNA_crafttable</li>
+	    </recipeUsers>
+        <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>TNA_crystal</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DevilstrandCloth</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Hyperweave</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <products>
+            <TNA_crystalfiber>100</TNA_crystalfiber>
+        </products>
+    </RecipeDef>
+
+    <!--制作超织物-->
+    <RecipeDef>
+      <defName>TNA_crafthyperweave</defName>
+	    <label>craft 20 pieces of hyperweave</label>
+      <description>craft 20 pieces of hyperweave.</description>
+      <jobString>crafting hyperweave.</jobString>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workAmount>36000</workAmount>
+      <workSkill>Crafting</workSkill>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <effectWorking>Tailor</effectWorking>
+      <researchPrerequisite>TNA_Cfiber_Res</researchPrerequisite>
+      <skillRequirements>
+       <Crafting>15</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+		   <li>TNA_crafttable</li>
+	    </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredients>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>DevilstrandCloth</li>
+            </thingDefs>
+          </filter>
+          <count>20</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Plasteel</li>
+            </thingDefs>
+          </filter>
+          <count>20</count>
+        </li>
+      </ingredients>
+      <products>
+        <Hyperweave>20</Hyperweave>
+      </products>
+    </RecipeDef>
+    
+    <!--制作安布罗斯豪华大餐-->
+    <RecipeDef ParentName="CookMealBase">
+    	<defName>TNA_CookALM</defName>
+    	<label>cook Ambrose lavish meal</label>
+    	<description>Cook a piece of Ambrose lavish meal, which is the mixture of love and magic.</description>
+        <jobString>Cooking Ambrose lavish meal.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                     </categories>
+                </filter>
+                <count>0.5</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>0.5</count>
+            </li>
+        </ingredients>
+        <products>
+            <TNA_AmbroseLavish>1</TNA_AmbroseLavish>
+        </products>
+        <skillRequirements>
+            <Cooking>15</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+
+    <!--制作安布罗斯豪华大餐 x5-->
+    <RecipeDef ParentName="CookMealBase">
+    	<defName>TNA_CookALMBulk</defName>
+    	<label>cook Ambrose lavish meal x5</label>
+    	<description>Cook five pieces of Ambrose lavish meal, which is the mixture of love and magic.</description>
+        <jobString>Cooking Ambrose lavish meal.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <workAmount>2700</workAmount>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                     </categories>
+                </filter>
+                <count>2.5</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>2.5</count>
+            </li>
+        </ingredients>
+        <products>
+            <TNA_AmbroseLavish>5</TNA_AmbroseLavish>
+        </products>
+        <skillRequirements>
+            <Cooking>15</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+</Defs>

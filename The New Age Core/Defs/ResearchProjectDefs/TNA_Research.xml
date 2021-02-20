@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef Abstract="True" Name="TNA_ResearchBase">
+        <techLevel>Archotech</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <tab>TNA_Maintab</tab>
+    </ResearchProjectDef>
+
+    <!--解密数据库-->
+    <ResearchProjectDef ParentName="TNA_ResearchBase">
+        <defName>TNA_DecodeDB</defName>
+        <label>Decode the Elements Database</label>
+        <description>Try to decode the Elements Database to get the legendary tech.</description>
+        <baseCost>50000</baseCost>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+
+    <!--水晶学-->
+    <ResearchProjectDef ParentName="TNA_ResearchBase">
+        <defName>TNA_Crystalology</defName>
+        <label>Crysatalology</label>
+        <description>Learn the crystalology, a discipline that deals primarily with the crystal, which is one of the basis for the introduction to thaumaturgy.</description>
+        <baseCost>30000</baseCost>
+        <prerequisites>
+            <li>TNA_DecodeDB</li>
+        </prerequisites>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+
+    <!--水晶纤维-->
+    <ResearchProjectDef ParentName="TNA_ResearchBase">
+        <defName>TNA_Cfiber_Res</defName>
+        <label>Crystalfiber</label>
+        <description>Learn how to craft the crystalfiber, a kind of enpowered fiber made by crystal.</description>
+        <baseCost>50000</baseCost>
+        <prerequisites>
+            <li>TNA_Crystalology</li>
+        </prerequisites>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>2.50</researchViewY>
+    </ResearchProjectDef>
+
+    <!--自适应装甲系统(AAS)-->
+    <ResearchProjectDef ParentName="TNA_ResearchBase">
+        <defName>TNA_AAS_Res</defName>
+        <label>Adaptive Armor System</label>
+        <description>Learn how to craft the adaptive armor system(AAS).</description>
+        <baseCost>70000</baseCost>
+        <prerequisites>
+            <li>TNA_Cfiber_Res</li>
+        </prerequisites>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>2.50</researchViewY>
+    </ResearchProjectDef>
+
+    <!--元素工作台-->
+    <ResearchProjectDef ParentName="TNA_ResearchBase">
+        <defName>TNA_CT_Res</defName>
+        <label>Elements Craft table</label>
+        <description>Learn how to build the elenments craft table, which is the basic of crafting Elements equipment.</description>
+        <baseCost>30000</baseCost>
+        <prerequisites>
+            <li>TNA_Crystalology</li>
+        </prerequisites>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+
+    <!--近身战斗系统(CCS)-->
+    <ResearchProjectDef ParentName="TNA_ResearchBase">
+        <defName>TNA_CCS_Res</defName>
+        <label>Close Combat System</label>
+        <description>Learn the Close Combat System, which is the core of elements melee weapons and equipments.</description>
+        <baseCost>120000</baseCost>
+        <prerequisites>
+            <li>TNA_CT_Res</li>
+        </prerequisites>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+    
+    <!-- 远程战斗系统(RCS)-->
+    <ResearchProjectDef ParentName="TNA_ResearchBase">
+        <defName>TNA_RCS_Res</defName>
+        <label>Ranged Combat System</label>
+        <description>Learn the Ranged Combat System, which is the core of elements ranged weapons and equipments.</description>
+        <baseCost>120000</baseCost>
+        <prerequisites>
+            <li>TNA_CT_Res</li>
+        </prerequisites>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>0.50</researchViewY>
+    </ResearchProjectDef>
+</Defs>

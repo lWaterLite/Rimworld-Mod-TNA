@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--安布罗斯豪华大餐-->
+    <ThingDef ParentName="MealBase">
+        <defName>TNA_AmbroseLavish</defName>
+        <label>Ambrose Lavish Meal(ALM)</label>
+        <description>Ambrose special lavish meal, give you the most amazing feelings!</description>
+        <graphicData>
+            <texPath>Things/Meals/TNA_ALM</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <DeteriorationRate>0.25</DeteriorationRate>
+            <MarketValue>24</MarketValue>
+            <Mass>0.2</Mass>
+            <WorkToMake>600</WorkToMake>
+            <Nutrition>1.0</Nutrition>
+            <Beauty>3</Beauty>
+        </statBases>
+        <stackLimit>75</stackLimit>
+        <alwaysHaulable>true</alwaysHaulable>
+        <ingestible>
+            <preferability>MealLavish</preferability>
+            <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>Meal_Eat</ingestSound>
+            <tasteThought>TNA_AteALM</tasteThought>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                <hediffDef>TNA_BuffALM</hediffDef>
+                <severity>0.55</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+  </ThingDef>
+  
+</Defs>

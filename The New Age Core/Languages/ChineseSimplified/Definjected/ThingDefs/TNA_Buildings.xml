@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!--元素工作台-->
+    <TNA_crafttable.label>元素工作台</TNA_crafttable.label>
+    <TNA_crafttable.description>标准的元素工作台，由于搭载了“冬至”，可以根据使用者的需求自由变化形态和设备。</TNA_crafttable.description>
+</LanguageData>

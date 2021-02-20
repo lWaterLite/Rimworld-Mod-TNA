@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!--ET-X55-->
+    <TNA_Bullet_ETX55LMG.label>蚀刻电荷弹</TNA_Bullet_ETX55LMG.label>
+    <TNA_ETX55LMG.label>ET-X55</TNA_ETX55LMG.label>
+    <TNA_ETX55LMG.description>ET-X55，元素标准LMG，采用标准的枪械组件以及智能系统，发射威力巨大的蚀刻电荷弹，可根据使用者的实际需求进行个性化定制。</TNA_ETX55LMG.description>
+
+    <!--ET-LS9R-->
+    <TNA_Bullet_ETLS9R.label>蚀刻电荷弹</TNA_Bullet_ETLS9R.label>
+    <TNA_ETLS9R.label>ET-LS9R</TNA_ETLS9R.label>
+    <TNA_ETLS9R.description>ET-LS9R，作为元素标准SMG ET-LS9的定制版，这把枪针对凌诗若的使用习惯进行了专门的设计，是诗若最喜欢也是最常用的武器，同时也是竹雨的爱的体现（大雾）。</TNA_ETLS9R.description>
+
+    <!--ET-IOR-->
+    <TNA_Bullet_ETIOR.label>蚀刻电荷弹</TNA_Bullet_ETIOR.label>
+    <TNA_ETIOR.label>ET-IOR</TNA_ETIOR.label>
+    <TNA_ETIOR.description>ET-IOR，作为元素标准AR ET-IO的定制版，这把枪针对夏竹雨的使用习惯进行了专门的设计，确保了射击时的最佳手感，同时这把枪也是搭载智能系统的原型枪。</TNA_ETIOR.description>
+
+    <!--ET-STR-->
+    <TNA_Bullet_ETSTR.label>蚀刻电荷弹</TNA_Bullet_ETSTR.label>
+    <TNA_ETSTR.label>ET-STR</TNA_ETSTR.label>
+    <TNA_ETSTR.description>ET-STR，作为元素标准SR ET-ST的定制版，这把枪针对秦灵的使用习惯进行了专门的设计，同时内置的智能系统对于纠正设计偏差具有显著效益，使得这把枪在极远的距离也能保持极高的精准度（虽然秦灵即使不使用系统也能射得很准）。</TNA_ETSTR.description>
+</LanguageData>

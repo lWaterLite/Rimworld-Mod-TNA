@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--安布罗斯大餐-->
+    <HediffDef>
+    	<defName>TNA_BuffALM</defName>
+    	<label>Ate Ambrose lavish meal</label>
+		  <description>My favourate!</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1</initialSeverity>
+        <defaultLabelColor>(0, 0.8, 0.66)</defaultLabelColor>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+            <severityPerDay>-1.0</severityPerDay>
+            </li>
+        </comps>
+        <stages>
+          <li>
+            <painFactor>0.9</painFactor>
+            <capMods>
+              <li>
+                <capacity>Consciousness</capacity>
+                <offset>0.1</offset>
+              </li>
+              <li>
+                <capacity>Manipulation</capacity>
+                <offset>0.3</offset>
+              </li>
+              <li>
+                <capacity>Moving</capacity>
+                <offset>0.3</offset>
+              </li>
+              <li>
+                <capacity>BloodFiltration</capacity>
+                <offset>0.3</offset>
+              </li>
+              <li>
+                <capacity>BloodPumping</capacity>
+                <offset>0.3</offset>
+              </li>
+            </capMods>
+          </li>
+        </stages>
+    </HediffDef>
+    
+</Defs>

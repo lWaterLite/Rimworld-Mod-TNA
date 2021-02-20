@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--水晶血-->
+  <TNA_crystalblood.label>水晶血</TNA_crystalblood.label>
+  <TNA_crystalblood.description>一种古老而又独特的血液，只天生存在于极少数人的体内。\n拥有这种血液的人在成年之前，头发会在某个时间点瞬间变白。目前多发的时间为十至十二岁，尚不清楚作用机理。\n由于独特的发色和极高的科研价值，加之大众对这种血液和水晶病之间的误解，这种血液一度绝迹，只留下几个大家族仍在传承。即使在今天这种血液依旧是最难以寻觅的远古奥秘之一。</TNA_crystalblood.description>
+
+  <!--凌之血-->
+  <TNA_Seperatesblood.label>凌之血</TNA_Seperatesblood.label>
+  <TNA_Seperatesblood.description>凌诗若的血，没什么好说的。如果世界上有什么要比她的血还厉害...那显然是不可能的。</TNA_Seperatesblood.description>
+
+  <!--烈焰之血-->
+  <TNA_campfiresblood.label>烈焰之血</TNA_campfiresblood.label>
+  <TNA_campfiresblood.description>烈焰之血，最早由阿符自己发现，由于传承了夏竹雨糟糕的取名能力，就决定命名为此。\n最早认为是独一无二，但在后续研究中发现这种血液也在世界上被极少数的人拥有，目前已知对象均已被Elements严密监控。\n拥有这种血液的人新陈代谢速度异常地高，同时他们都拥有远超常人的智商和学习能力。当然，作为代价，他们必须时常进食以补充身体消耗的大量能量，这也是为什么阿符这么喜欢吃甜食。</TNA_campfiresblood.description>
+</LanguageData>
